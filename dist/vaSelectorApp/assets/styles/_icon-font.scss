@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'VA-icons';
+    src:  url('fonts/VA-icons.eot?3i3mp3');
+    src:  url('fonts/VA-icons.eot?3i3mp3#iefix') format('embedded-opentype'),
+      url('fonts/VA-icons.ttf?3i3mp3') format('truetype'),
+      url('fonts/VA-icons.woff?3i3mp3') format('woff'),
+      url('fonts/VA-icons.svg?3i3mp3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  %add-icon-font {
+    font-family: 'VA-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    @extend %add-icon-font;
+  }
+  .icon-collapse .path1:before {
+    content: "\e900";
+    color: rgb(255, 255, 255);
+  }
+  .icon-collapse .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(0, 80, 115);
+  }
+  .icon-expand .path1:before {
+    content: "\e902";
+    color: rgb(255, 255, 255);
+  }
+  .icon-expand .path2:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(0, 80, 115);
+  }
+  .icon-check:before {
+    content: "\e904";
+    color: #005073;
+  }
+  .icon-arrow-combo:before {
+    content: "\e905";
+    color: #005073;
+  }
+  .icon-search:before {
+    content: "\e906";
+    color: #005073;
+  }
+  .icon-arrow-tooltip:before {
+    content: "\e907";
+    color: #005073;
+  }
+  .icon-star-rating:before {
+    content: "\e908";
+    color: #005073;
+  }
+  .icon-cross:before {
+    content: "\e909";
+    color: #005073;
+  }

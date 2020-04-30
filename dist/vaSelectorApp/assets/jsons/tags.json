@@ -1,0 +1,92 @@
+[{
+
+    "mainTag": "Facility",
+    "mainTagId": "00001",
+    "subTag": [{
+            "tag": "Lab",
+            "tagId": "000011"
+
+        },
+        {
+            "tag": "Library",
+            "tagId": "000012"
+
+        },
+        {
+            "tag": "Gym",
+            "tagId": "000013"
+
+        }
+
+    ]
+
+},
+{
+    "mainTag": "Department",
+    "mainTagId": "00002",
+    "subTag": [{
+            "tag": "Arts",
+            "tagId": "000021"
+
+        },
+        {
+            "tag": "Biology",
+            "tagId": "0000122"
+
+        },
+        {
+            "tag": "Engineering",
+            "tagId": "000023"
+
+        }
+
+    ]
+},
+{
+    "mainTag": "Campus",
+    "mainTagId": "00003",
+    "subTag": [{
+            "tag": "Berkeley",
+            "tagId": "000021"
+
+        },
+        {
+            "tag": "Davis",
+            "tagId": "0000132"
+
+        },
+        {
+            "tag": "Irvine",
+            "tagId": "000033"
+
+        }
+
+    ]
+},
+{
+    "mainTag": "Role",
+    "mainTagId": "00004",
+    "subTag": [{
+            "tag": "Faculty",
+            "tagId": "000041"
+
+        },
+        {
+            "tag": "Staff",
+            "tagId": "000042"
+
+        },
+        {
+            "tag": "Student",
+            "tagId": "000043"
+
+        },
+        {
+            "tag": "Guest",
+            "tagId": "000044"
+
+        }
+
+    ]
+}
+]

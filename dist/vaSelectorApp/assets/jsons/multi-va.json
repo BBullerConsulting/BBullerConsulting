@@ -1,0 +1,173 @@
+[
+	{
+		"virtualAccount": "Cal_Berkeley",
+		"description": "UC Berkeley network",
+		"tags": [
+			"Berkeley"
+		],
+		"virtualAccountId": "100001",
+		"childVA": [
+			{
+				"virtualAccount": "Cal_Bechtel",
+				"description": "Bechtel building at Cal",
+				"tags": [
+					"Berkeley",
+					"Engineering"
+				],
+				"virtualAccountId": "1000011",
+				"parentVirtualAccountId": "100001",
+				"childVA": [
+					{
+						"virtualAccount": "Cal_Bechtel_Lab",
+						"description": "Lab machines at Bechtel",
+						"tags": [
+							"Berkeley",
+							"Engineering",
+							"Lab"
+						],
+						"virtualAccountId": "10000111",
+						"parentVirtualAccountId": "1000011",
+						"childVA": [
+							{
+								"virtualAccount": "Cal_Bechtel_Lab_Faculty",
+								"description": "Faculty lab machines",
+								"tags": [
+									"Berkeley",
+									"Engineering",
+									"Faculty",
+									"DoD",
+									"Lab",
+									"Secure"
+								],
+								"virtualAccountId": "100001110",
+								"parentVirtualAccountId": "10000111",
+								"childVA": []
+							},
+							{
+								"virtualAccount": "Cal_Bechtel_Lab_Student",
+								"description": "Student lab machines",
+								"tags": [
+									"Berkeley",
+									"Engineering",
+									"Lab"
+								],
+								"virtualAccountId": "100001111",
+								"parentVirtualAccountId": "10000111",
+								"childVA": []
+							}
+						]
+					},
+					{
+						"virtualAccount": "Cal_Bechtel_Public",
+						"description": "Bechtel public net",
+						"tags": [
+							"Berkeley",
+							"Engineering",
+							"public"
+						],
+						"virtualAccountId": "10000112",
+						"parentVirtualAccountId": "1000011",
+						"childVA": [
+							{
+								"virtualAccount": "Cal_Bechtel_Public_Cafe",
+								"description": "cafe area",
+								"tags": [
+									"Berkeley",
+									"Engineering",
+									"public"
+								],
+								"virtualAccountId": "100001120",
+								"parentVirtualAccountId": "10000112",
+								"childVA": []
+							},
+							{
+								"virtualAccount": "Cal_Bechtel_Public_Library",
+								"description": "main libraray",
+								"tags": [
+									"Berkeley",
+									"Engineering",
+									"public"
+								],
+								"virtualAccountId": "100001121",
+								"parentVirtualAccountId": "10000112",
+								"childVA": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"virtualAccount": "Cal_Corey",
+				"description": "Corey net",
+				"tags": [
+					"Berkeley",
+					"Engineering"
+				],
+				"virtualAccountId": "1000017",
+				"parentVirtualAccountId": "100001",
+				"childVA": [
+					{
+						"virtualAccount": "Cal_Corey_Lab",
+						"description": "Lab machines at Corey",
+						"tags": [
+							"Berkeley",
+							"Engineering",
+							"Lab",
+							"Faculty"
+						],
+						"virtualAccountId": "10000171",
+						"parentVirtualAccountId": "1000017",
+						"childVA": [
+							{
+								"virtualAccount": "Cal_Corey_Lab_Faculty",
+								"description": "Faculty lab machines",
+								"tags": [
+									"Berkeley",
+									"Engineering",
+									"Faculty",
+									"Lab",
+									"Secure"
+								],
+								"virtualAccountId": "100001711",
+								"parentVirtualAccountId": "10000171",
+								"childVA": []
+							},
+							{
+								"virtualAccount": "Cal_Corey_Lab_Student",
+								"description": "Student lab machines",
+								"tags": [
+									"Berkeley",
+									"Engineering",
+									"Lab"
+								],
+								"virtualAccountId": "100001712",
+								"parentVirtualAccountId": "10000171",
+								"childVA": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"virtualAccount": "Davis",
+		"description": "UC Davis network",
+		"tags": [
+			"Davis"
+		],
+		"virtualAccountId": "100002",
+		"childVA": [
+			{
+				"virtualAccount": "Cal_Bechtel",
+				"description": "All Ivrine Machines",
+				"tags": [
+					"Ivrine"
+				],
+				"virtualAccountId": "1000021",
+				"parentVirtualAccountId": "100002",
+				"childVA": []
+			}
+		]
+	}
+]
